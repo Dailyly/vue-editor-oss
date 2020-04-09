@@ -1,0 +1,20 @@
+{
+  "name": "@daily/vue-editor-oss",
+  "version": "1.0.0",
+  "description": "support using v-model and upload oss in vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue-editor、oss"
+  ],
+  "author": "daily",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
