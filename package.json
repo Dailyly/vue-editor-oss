@@ -1,6 +1,6 @@
 {
   "name": "vue-editor-oss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "support using v-model and upload oss in vue",
   "main": "./dist/vue-editor-oss.js",
   "scripts": {
