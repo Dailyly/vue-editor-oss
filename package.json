@@ -1,19 +1,34 @@
 {
-  "name": "@daily/vue-editor-oss",
+  "name": "vue-editor-oss",
   "version": "1.0.0",
   "description": "support using v-model and upload oss in vue",
-  "main": "index.js",
+  "main": "./dist/vue-editor-oss.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server ----config webpack.config.js"
+    "dev": "webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dailyly/vue-editor-oss.git"
   },
   "keywords": [
-    "vue-editor、oss"
+    "editor",
+    "vue-editor",
+    "oss",
+    "esitor-oss"
   ],
   "author": "daily",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dailyly/vue-editor-oss/issues"
+  },
+  "homepage": "https://github.com/Dailyly/vue-editor-oss#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
     "css-loader": "^3.5.1",
     "html-webpack-plugin": "^4.2.0",
     "style-loader": "^1.1.3",
@@ -23,5 +38,10 @@
     "webpack": "^4.17.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "md5": "^2.2.1",
+    "wangeditor": "^3.1.1"
   }
 }
