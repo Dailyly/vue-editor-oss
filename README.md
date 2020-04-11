@@ -17,14 +17,14 @@ $ npm install vue-editor-oss -S
 ...
 import VueEditorOss from '@daily/vue-editor-oss'
 ...
- components: {
-   VueEditorOss
- },
- data () {
-	return {
-		html: ''
-	}
- }
+components: {
+    VueEditorOss
+},
+data () {
+    return {
+        html: ''
+    }
+}
 ```
 
 ### options
@@ -61,22 +61,22 @@ const menus = [
   ]
 // 组件内默认设置了两个属性，自定义可覆盖
 customConfig = {
-	menus，
-  onchange // 富文本编辑器内容发生变化时，需要做的处理，内部利用该方法封装好v-model
+    menus，
+    onchange // 富文本编辑器内容发生变化时，需要做的处理，内部利用该方法封装好v-model
 }
 ```
 ossAccessToken： 若需要上传图片到oss，可使用此配置
 ```
 // 需传入的参数配置为：
 ossAccessToken = {
-	policy: '对应oss的policy',
-  accessid: '对应oss的OSSAccessKeyId',
-  callback: '对应oss的callback',
-  token: '对应oss的x-oss-security-token',
-  acl: '对应oss的x-oss-object-acl',
-  signature: '对应oss的signature'
-	host: '上传到oss的域名'，
-	dir: '上传到oss下的位置路径'
+    policy: '对应oss的policy',
+    accessid: '对应oss的OSSAccessKeyId',
+    callback: '对应oss的callback',
+    token: '对应oss的x-oss-security-token',
+    acl: '对应oss的x-oss-object-acl',
+    signature: '对应oss的signature',
+    host: '上传到oss的域名'，
+    dir: '上传到oss下的位置路径'
 }，
 // 如下面的例子
 {
